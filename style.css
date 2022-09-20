@@ -1,0 +1,241 @@
+/*
+Theme Name: Kworld
+Text Domain: Kirby's World
+Version: 1.1
+Description: Green and black. Header features things of interest to me.
+Tags: Kirby, world
+Author: David Kirby
+Author URI: url
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+
+* {
+
+    box-sizing: border-box;
+}
+
+body {
+   width: 100%;
+   font-size: 10px;
+   font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.header {
+    padding: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+
+    border-bottom: 3px solid darkgreen;
+
+}
+
+h1 {
+    margin: auto;
+    font-size: 60px;
+    text-transform: capitalize;
+
+    text-shadow: 5px 5px 5px red;
+}
+
+.nav {
+    width: 100%;
+    background-color: rgb(8, 156, 8);
+
+}
+
+form{
+    color: black;
+    background-color: darkgrey;
+
+}
+
+.logged-in-as {
+    color: red;
+}
+
+.wp-block-comments-query-loop {
+        background-color: darkgray;
+        padding: 20px;
+    }
+
+.wp-block-comment-template {
+    height: 100vh;
+    background-color: white;
+    overflow: auto;
+}
+
+.wp-block-comment-template li {
+    border-bottom: 1px solid black;
+}
+
+.wp-block-comment-template li:last-child {
+    border-bottom: none;
+}
+
+.comment-reply-title {
+    color: black;
+}
+
+.page-numbers {
+    font-size: 15px;
+    color: black;
+
+}
+
+.page-numbers:hover{
+    color: red;
+}
+
+
+#menu-header-nav {
+    display: flex;
+    position: relative;
+}
+
+#menu-header-nav li {
+    list-style-type: none;
+    border-right: 2px solid darkgreen;
+    
+}
+
+#menu-header-nav a {
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    padding: 20px;
+    display: block;
+}
+
+
+#menu-header-nav .sub-menu {
+    position: absolute;
+    display: none;
+    width: 115px;
+
+    border: 2px solid darkgreen;
+}
+
+#menu-header-nav .sub-menu li {
+    background-color: rgb(8, 156, 8);
+    border-bottom: 2px solid darkgreen;
+   
+}
+
+
+#menu-header-nav li a:hover {
+    background-color: rgb(133, 24, 24);
+    color:rgb(9, 177, 9);
+    text-shadow: 5px 5px 5px black;
+    
+
+}
+
+#menu-header-nav li:hover .sub-menu{
+    display: block;
+    z-index: 1;
+}
+
+ol {
+    list-style-position: inside;
+}
+
+
+#time {
+    float: right;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.content {
+    height: 100vh;
+    overflow: auto;
+
+    background-color: rgb(49, 46, 46);
+    color:rgb(9, 177, 9);
+
+}
+
+.main-content {
+    margin: 50px; 
+}
+
+h3 {
+    font-size: 10px;
+}
+
+strong {
+    font-size: 20px;
+}
+
+
+table, th, td {
+    border: 1px solid rgb(9, 177, 9);
+    padding: 10px;
+}
+
+th {
+    font-size: 20px;
+}
+
+td {
+    font-size: 15px;
+}
+
+figcaption {
+    text-align: center;
+    margin-top: 5px;
+    font-size: 10px;
+}
+
+figure{
+    text-align: center;
+    width: 400px;
+}
+
+ 
+.footer {
+    clear: both;
+    width: 100%;
+
+    padding: 20px;
+    text-align: center;
+
+    background-color: rgb(8, 156, 8);
+    border-top: 3px solid darkgreen;
+
+   
+    font-size: 15px;
+
+}
+
+@media only screen and (max-width: 620px){
+    nav, .main, aside {
+         width: 100%;
+         height: auto;
+         position: relative;
+         
+     }
+ }

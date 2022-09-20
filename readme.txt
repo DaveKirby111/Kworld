@@ -1,0 +1,1 @@
+This is practice on how to make a custom theme for wordpress.
